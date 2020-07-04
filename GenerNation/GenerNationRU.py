@@ -1,4 +1,6 @@
 import random
+def version():
+      print("0.1")
 def gensteam1(output="no", outprint="no", namefile="genernation.txt"):
       keys = "QWERTYUIOPASDFGHJKLZXCVBNM1234567890"
       a1 = random.choice(keys)
