@@ -36,3 +36,8 @@ def genpass(length):
         password += random.choice(chars)
     return password
     
+def xor_cipher(str, key):
+    encript_str = ""
+    for letter in str:
+        encript_str += chr(ord(letter)^key)
+    return encript_str
