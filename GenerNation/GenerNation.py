@@ -41,3 +41,11 @@ def xor_cipher(str, key):
     for letter in str:
         encript_str += chr(ord(letter)^key)
     return encript_str
+    
+def SimpleStrHash(stre):
+    hash = 0
+    for i in stre:
+        hash += ord(i)
+        
+    return hex(hash)
+    return hex(hash)
