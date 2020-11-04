@@ -48,4 +48,3 @@ def SimpleStrHash(stre):
         hash += ord(i)
         
     return hex(hash)
-    return hex(hash)
