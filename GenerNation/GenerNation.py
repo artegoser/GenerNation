@@ -1,3 +1,5 @@
+import random
+
 def gensteam1():
     out = ""
     keys = "QWERTYUIOPASDFGHJKLZXCVBNM1234567890"
