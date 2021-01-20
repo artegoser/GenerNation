@@ -1,1 +1,1 @@
-from GenerNation import GenerNation
+from GenerNation.GenerNation import *
